@@ -41,6 +41,7 @@ main {
     position: absolute;
     vertical-align: middle;
     left: 0;
+	z-index: 3;
 }
 .cardImage {
 	display: flex;
