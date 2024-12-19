@@ -12,8 +12,50 @@ body {
 		url('./Fonts/Gost_A/fonts/gost_tip_a.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('./Fonts/Gost_A/fonts/gost_tip_a.svg#gost_tip_a') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+
 h1 {
     font-family: 'ГОСТ тип А';
     font-size: 18px;
     font-weight: 400;
+}
+.page-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.top {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    top: 30px;
+    margin-left: auto;
+	margin-right: auto;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo {
+    position: absolute;
+    vertical-align: middle;
+    left: 0;
+}
+.cardImage {
+	display: flex;
+	align-items: center;
+}
+.logoBaner {
+	position: absolute;
+	right: 0;
+	width: 1000px;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.1;
+	z-index: 1;
+}
+.headerTitle {
+	position: relative;
+	display: table-cell;
+	margin: 0;
+	font-size: 50px;
+	font-weight: 500;
+	z-index: 2;
 }
