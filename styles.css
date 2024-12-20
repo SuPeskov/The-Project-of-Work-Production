@@ -17,14 +17,29 @@ main {
 	position: absolute;
 	flex-direction: column;
 }
+h1 {
+	font-size: 25px;
+}
+h2 {
+	font-size: 20px;
+}
 .page-wrapper {
     max-width: 1600px;
     margin: 0 auto;
 }
+.none {
+	color: red;
+}
+.importantText {
+	font-weight: bold;
+}
+.mainText {
+	font-size: 20px;
+}
 .mainTitle {
 	position: relative;
 	top: 50px;
-	font-size: 40px;
+	font-size: 30px;
 }
 .top {
     position: relative;
@@ -64,11 +79,17 @@ main {
 	z-index: 2;
 }
 li::marker {
-	font-size: 35px;
+	font-size: 20px;
 	font-weight: bold;
+}
+li.mainText::marker {
+	font-size: 20px;
+	font-weight: 100;
+	position: relative;
+	top: 25px;
 }
 .subsectionTitle {
 	position: relative;
 	top: 25px;
-	font-size: 25px;
+	font-size: 20px;
 }
