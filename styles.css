@@ -102,3 +102,12 @@ li.mainText::marker {
 	justify-content: space-between;
 	align-items: center;
 }
+.backTableContainer {
+	height: 100px;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+.backTable {
+	font-size: 20px;
+}
