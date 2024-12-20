@@ -93,3 +93,12 @@ li.mainText::marker {
 	top: 25px;
 	font-size: 20px;
 }
+.qrBlock {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
